@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SS-04-CustomAuthenticationProvider" />
+        <module name="SS-02-CustomUsernameAndPassword" />
+        <module name="SS-03-CustomUsernameAndPasswordUsingBean" />
+        <module name="SS-05-CustomAuthenticationProvider" />
+        <module name="SS-01-Basic" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SS-01-Basic" target="17" />
+      <module name="SS-02-CustomUsernameAndPassword" target="17" />
+      <module name="SS-03-CustomUsernameAndPasswordUsingBean" target="17" />
+      <module name="SS-04-CustomAuthenticationProvider" target="17" />
+      <module name="SS-05-CustomAuthenticationProvider" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SS-01-Basic" options="-parameters" />
+      <module name="SS-02-CustomUsernameAndPassword" options="-parameters" />
+      <module name="SS-03-CustomUsernameAndPasswordUsingBean" options="-parameters" />
+      <module name="SS-04-CustomAuthenticationProvider" options="-parameters" />
+      <module name="SS-05-CustomAuthenticationProvider" options="-parameters" />
+    </option>
+  </component>
+</project>
